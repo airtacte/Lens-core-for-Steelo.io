@@ -3,21 +3,21 @@ pragma solidity ^0.8.13;
 
 import 'forge-std/Test.sol';
 import {ForkManagement} from 'test/helpers/ForkManagement.sol';
-import {LegacyCollectNFT} from 'contracts/misc/LegacyCollectNFT.sol';
-import {LensHub} from 'contracts/LensHub.sol';
-import {FollowNFT} from 'contracts/FollowNFT.sol';
+import {LegacyCollectNFT} from '../misc/LegacyCollectNFT.sol';
+import {LensHub} from '../LensHub.sol';
+import {FollowNFT} from '../FollowNFT.sol';
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
-import {LensHandles} from 'contracts/namespaces/LensHandles.sol';
-import {TokenHandleRegistry} from 'contracts/namespaces/TokenHandleRegistry.sol';
+import {LensHandles} from '../namespaces/LensHandles.sol';
+import {TokenHandleRegistry} from '../namespaces/TokenHandleRegistry.sol';
 import {IERC721} from '@openzeppelin/contracts/token/ERC721/IERC721.sol';
 import {IERC721Enumerable} from '@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol';
-import {LensHubInitializable} from 'contracts/misc/LensHubInitializable.sol';
-import {LensV2Migration} from 'contracts/misc/LensV2Migration.sol';
-import {MigrationLib, ILegacyFeeFollowModule} from 'contracts/libraries/MigrationLib.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
-import {IFollowModule} from 'contracts/interfaces/IFollowModule.sol';
+import {LensHubInitializable} from '../misc/LensHubInitializable.sol';
+import {LensV2Migration} from '../misc/LensV2Migration.sol';
+import {MigrationLib, ILegacyFeeFollowModule} from '../libraries/MigrationLib.sol';
+import {Events} from '../libraries/constants/Events.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
+import {IFollowModule} from '../interfaces/IFollowModule.sol';
 import 'test/base/BaseTest.t.sol';
 
 contract MigrationsTest is BaseTest {

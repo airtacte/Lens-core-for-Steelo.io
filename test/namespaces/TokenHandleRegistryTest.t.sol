@@ -4,9 +4,9 @@ pragma solidity ^0.8.13;
 import 'test/base/BaseTest.t.sol';
 import {ERC1271WalletMock} from '@openzeppelin/contracts/mocks/ERC1271WalletMock.sol';
 import {MetaTxNegatives} from 'test/MetaTxNegatives.t.sol';
-import {RegistryErrors} from 'contracts/namespaces/constants/Errors.sol';
-import {RegistryEvents} from 'contracts/namespaces/constants/Events.sol';
-import {RegistryTypes} from 'contracts/namespaces/constants/Types.sol';
+import {RegistryErrors} from '../namespaces/constants/Errors.sol';
+import {RegistryEvents} from '../namespaces/constants/Events.sol';
+import {RegistryTypes} from '../namespaces/constants/Types.sol';
 
 contract TokenHandleRegistryTest is BaseTest {
     uint256 profileId;

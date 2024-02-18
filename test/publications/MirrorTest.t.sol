@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {Types} from '../libraries/constants/Types.sol';
 import {PublicationTest, ReferencePublicationTest} from 'test/publications/PublicationTest.t.sol';
 import {MetaTxNegatives} from 'test/MetaTxNegatives.t.sol';
 import {ReferralSystemTest} from 'test/ReferralSystem.t.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
 import 'forge-std/console.sol';
 
 contract MirrorTest is ReferencePublicationTest, ReferralSystemTest {

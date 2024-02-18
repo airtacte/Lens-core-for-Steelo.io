@@ -2,11 +2,11 @@
 
 pragma solidity ^0.8.15;
 
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
-import {ProfileLib} from 'contracts/libraries/ProfileLib.sol';
-import {PublicationLib} from 'contracts/libraries/PublicationLib.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
+import {ProfileLib} from '../libraries/ProfileLib.sol';
+import {PublicationLib} from '../libraries/PublicationLib.sol';
 
 /**
  * @title ValidationLib

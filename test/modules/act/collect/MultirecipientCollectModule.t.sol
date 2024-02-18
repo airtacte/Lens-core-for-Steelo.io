@@ -2,13 +2,13 @@
 pragma solidity ^0.8.10;
 
 import {MultirecipientCollectModuleBase} from 'test/modules/act/collect/MultirecipientCollectModule.base.t.sol';
-import {IBaseFeeCollectModule} from 'contracts/modules/interfaces/IBaseFeeCollectModule.sol';
-import {RecipientSplitCannotBeZero, TooManyRecipients, InvalidRecipientSplits, MultirecipientFeeCollectProfilePublicationData, MultirecipientFeeCollectModuleInitData, RecipientData, MultirecipientFeeCollectModule} from 'contracts/modules/act/collect/MultirecipientFeeCollectModule.sol';
+import {IBaseFeeCollectModule} from '../modules/interfaces/IBaseFeeCollectModule.sol';
+import {RecipientSplitCannotBeZero, TooManyRecipients, InvalidRecipientSplits, MultirecipientFeeCollectProfilePublicationData, MultirecipientFeeCollectModuleInitData, RecipientData, MultirecipientFeeCollectModule} from '../modules/act/collect/MultirecipientFeeCollectModule.sol';
 import {BaseFeeCollectModule_Initialization, BaseFeeCollectModule_ProcessCollect, BaseFeeCollectModule_FeeDistribution} from 'test/modules/act/collect/BaseFeeCollectModule.t.sol';
 import {BaseFeeCollectModuleBase} from 'test/modules/act/collect/BaseFeeCollectModule.base.t.sol';
-import {Errors as ModuleErrors} from 'contracts/modules/constants/Errors.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {ModuleTypes} from 'contracts/modules/libraries/constants/ModuleTypes.sol';
+import {Errors as ModuleErrors} from '../modules/constants/Errors.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {ModuleTypes} from '../modules/libraries/constants/ModuleTypes.sol';
 
 /////////
 // Publication Creation with InheritedFeeCollectModule

@@ -4,13 +4,13 @@ pragma solidity ^0.8.13;
 import 'test/base/BaseTest.t.sol';
 import 'test/LensBaseERC721Test.t.sol';
 import {IERC721} from '@openzeppelin/contracts/token/ERC721/IERC721.sol';
-import {IFollowNFT} from 'contracts/interfaces/IFollowNFT.sol';
-import {FollowNFT} from 'contracts/FollowNFT.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {IFollowNFT} from '../interfaces/IFollowNFT.sol';
+import {FollowNFT} from '../FollowNFT.sol';
+import {Types} from '../libraries/constants/Types.sol';
 import {Base64} from 'solady/utils/Base64.sol';
 import {LibString} from 'solady/utils/LibString.sol';
-import {FollowTokenURI} from 'contracts/misc/token-uris/FollowTokenURI.sol';
-import {IFollowTokenURI} from 'contracts/interfaces/IFollowTokenURI.sol';
+import {FollowTokenURI} from '../misc/token-uris/FollowTokenURI.sol';
+import {IFollowTokenURI} from '../interfaces/IFollowTokenURI.sol';
 
 contract FollowNFTTest is BaseTest, LensBaseERC721Test {
     using stdJson for string;

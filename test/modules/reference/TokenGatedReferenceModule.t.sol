@@ -2,8 +2,8 @@
 pragma solidity ^0.8.10;
 
 import 'test/base/BaseTest.t.sol';
-import {TokenGatedReferenceModule, GateParams} from 'contracts/modules/reference/TokenGatedReferenceModule.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {TokenGatedReferenceModule, GateParams} from '../modules/reference/TokenGatedReferenceModule.sol';
+import {Types} from '../libraries/constants/Types.sol';
 import {ArrayHelpers} from 'test/helpers/ArrayHelpers.sol';
 import {MockCurrency} from 'test/mocks/MockCurrency.sol';
 import {MockNFT} from 'test/mocks/MockNFT.sol';

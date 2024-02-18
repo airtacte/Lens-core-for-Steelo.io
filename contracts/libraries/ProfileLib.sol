@@ -2,15 +2,15 @@
 
 pragma solidity ^0.8.15;
 
-import {ValidationLib} from 'contracts/libraries/ValidationLib.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
-import {IFollowModule} from 'contracts/interfaces/IFollowModule.sol';
-import {IFollowNFT} from 'contracts/interfaces/IFollowNFT.sol';
-import {IModuleRegistry} from 'contracts/interfaces/IModuleRegistry.sol';
-import {ILensHub} from 'contracts/interfaces/ILensHub.sol';
+import {ValidationLib} from '../libraries/ValidationLib.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {Events} from '../libraries/constants/Events.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
+import {IFollowModule} from '../interfaces/IFollowModule.sol';
+import {IFollowNFT} from '../interfaces/IFollowNFT.sol';
+import {IModuleRegistry} from '../interfaces/IModuleRegistry.sol';
+import {ILensHub} from '../interfaces/ILensHub.sol';
 
 library ProfileLib {
     function MODULE_REGISTRY() internal view returns (IModuleRegistry) {

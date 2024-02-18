@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {ProxyAdmin} from 'contracts/misc/access/ProxyAdmin.sol';
+import {ProxyAdmin} from '../misc/access/ProxyAdmin.sol';
 
 contract MockContract {
     function testMockContract() public {

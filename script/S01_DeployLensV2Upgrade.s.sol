@@ -3,21 +3,21 @@ pragma solidity ^0.8.13;
 
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
 import 'forge-std/Script.sol';
-import {ILensGovernable} from 'contracts/interfaces/ILensGovernable.sol';
-import {LensHubInitializable} from 'contracts/misc/LensHubInitializable.sol';
-import {LensV2UpgradeContract} from 'contracts/misc/LensV2UpgradeContract.sol';
-import {FollowNFT} from 'contracts/FollowNFT.sol';
-import {LensHandles} from 'contracts/namespaces/LensHandles.sol';
-import {TokenHandleRegistry} from 'contracts/namespaces/TokenHandleRegistry.sol';
+import {ILensGovernable} from '../interfaces/ILensGovernable.sol';
+import {LensHubInitializable} from '../misc/LensHubInitializable.sol';
+import {LensV2UpgradeContract} from '../misc/LensV2UpgradeContract.sol';
+import {FollowNFT} from '../FollowNFT.sol';
+import {LensHandles} from '../namespaces/LensHandles.sol';
+import {TokenHandleRegistry} from '../namespaces/TokenHandleRegistry.sol';
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
-import {FeeFollowModule} from 'contracts/modules/follow/FeeFollowModule.sol';
-import {Governance} from 'contracts/misc/access/Governance.sol';
-import {LensV2UpgradeContract} from 'contracts/misc/LensV2UpgradeContract.sol';
-import {ProxyAdmin} from 'contracts/misc/access/ProxyAdmin.sol';
-import {ModuleRegistry} from 'contracts/misc/ModuleRegistry.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {FeeFollowModule} from '../modules/follow/FeeFollowModule.sol';
+import {Governance} from '../misc/access/Governance.sol';
+import {LensV2UpgradeContract} from '../misc/LensV2UpgradeContract.sol';
+import {ProxyAdmin} from '../misc/access/ProxyAdmin.sol';
+import {ModuleRegistry} from '../misc/ModuleRegistry.sol';
+import {Types} from '../libraries/constants/Types.sol';
 import {LibString} from 'solady/utils/LibString.sol';
-import {LegacyCollectNFT} from 'contracts/misc/LegacyCollectNFT.sol';
+import {LegacyCollectNFT} from '../misc/LegacyCollectNFT.sol';
 
 import {ArrayHelpers} from 'script/helpers/ArrayHelpers.sol';
 

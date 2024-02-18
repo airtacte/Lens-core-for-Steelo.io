@@ -2,13 +2,13 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {PublicActProxy} from 'contracts/misc/PublicActProxy.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {PublicActProxy} from '../misc/PublicActProxy.sol';
+import {Types} from '../libraries/constants/Types.sol';
 import {MockCollectModule} from 'test/mocks/MockCollectModule.sol';
-import {CollectPublicationAction} from 'contracts/modules/act/collect/CollectPublicationAction.sol';
-import {CollectNFT} from 'contracts/modules/act/collect/CollectNFT.sol';
-import {SimpleFeeCollectModule} from 'contracts/modules/act/collect/SimpleFeeCollectModule.sol';
-import {BaseFeeCollectModuleInitData} from 'contracts/modules/interfaces/IBaseFeeCollectModule.sol';
+import {CollectPublicationAction} from '../modules/act/collect/CollectPublicationAction.sol';
+import {CollectNFT} from '../modules/act/collect/CollectNFT.sol';
+import {SimpleFeeCollectModule} from '../modules/act/collect/SimpleFeeCollectModule.sol';
+import {BaseFeeCollectModuleInitData} from '../modules/interfaces/IBaseFeeCollectModule.sol';
 import {MockCurrency} from 'test/mocks/MockCurrency.sol';
 
 contract PublicActProxyTest is BaseTest {

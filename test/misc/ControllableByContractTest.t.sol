@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {ControllableByContract} from 'contracts/misc/access/ControllableByContract.sol';
+import {ControllableByContract} from '../misc/access/ControllableByContract.sol';
 
 // TODO: Move to mocks/
 contract MockControllableByContract is ControllableByContract {

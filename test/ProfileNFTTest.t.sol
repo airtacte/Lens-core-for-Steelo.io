@@ -5,8 +5,8 @@ import 'test/base/BaseTest.t.sol';
 import 'test/LensBaseERC721Test.t.sol';
 import {Base64} from 'solady/utils/Base64.sol';
 import {LibString} from 'solady/utils/LibString.sol';
-import {ProfileTokenURI} from 'contracts/misc/token-uris/ProfileTokenURI.sol';
-import {IProfileTokenURI} from 'contracts/interfaces/IProfileTokenURI.sol';
+import {ProfileTokenURI} from '../misc/token-uris/ProfileTokenURI.sol';
+import {IProfileTokenURI} from '../interfaces/IProfileTokenURI.sol';
 import {TokenGuardianTest_Default_On, IGuardedToken} from 'test/TokenGuardian.t.sol';
 
 contract ProfileNFTTest is LensBaseERC721Test, TokenGuardianTest_Default_On {

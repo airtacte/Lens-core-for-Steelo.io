@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.15;
 
-import {LensModuleMetadata} from 'contracts/modules/LensModuleMetadata.sol';
+import {LensModuleMetadata} from '../modules/LensModuleMetadata.sol';
 
 abstract contract MockModule is LensModuleMetadata {
     error MockModuleReverted();

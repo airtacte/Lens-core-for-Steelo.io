@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.15;
 
-import {IReferenceModule} from 'contracts/interfaces/IReferenceModule.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {IReferenceModule} from '../interfaces/IReferenceModule.sol';
+import {Types} from '../libraries/constants/Types.sol';
 import {MockModule} from 'test/mocks/MockModule.sol';
 
 /**

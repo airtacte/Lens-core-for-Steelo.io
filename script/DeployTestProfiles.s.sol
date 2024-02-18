@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
 import 'forge-std/Script.sol';
 
-import {ProfileTokenURI} from 'contracts/misc/token-uris/ProfileTokenURI.sol';
+import {ProfileTokenURI} from '../misc/token-uris/ProfileTokenURI.sol';
 import {ERC721} from '@openzeppelin/contracts/token/ERC721/ERC721.sol';
 
 contract NFTMinter is ProfileTokenURI, ERC721 {

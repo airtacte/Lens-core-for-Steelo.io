@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
 import 'forge-std/Script.sol';
-import {HandleTokenURI} from 'contracts/misc/token-uris/HandleTokenURI.sol';
+import {HandleTokenURI} from '../misc/token-uris/HandleTokenURI.sol';
 
 contract DeployHandleTokenURI is Script, ForkManagement {
     using stdJson for string;

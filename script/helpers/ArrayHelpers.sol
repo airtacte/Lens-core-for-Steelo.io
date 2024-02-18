@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-import {Types} from 'contracts/libraries/constants/Types.sol';
+import {Types} from '../libraries/constants/Types.sol';
 
 contract ArrayHelpers {
     function testArrayHelpers() public {

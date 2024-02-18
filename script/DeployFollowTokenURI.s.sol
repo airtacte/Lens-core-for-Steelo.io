@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
 import 'forge-std/Script.sol';
-import {FollowTokenURI} from 'contracts/misc/token-uris/FollowTokenURI.sol';
+import {FollowTokenURI} from '../misc/token-uris/FollowTokenURI.sol';
 
 contract DeployFollowTokenURI is Script, ForkManagement {
     using stdJson for string;

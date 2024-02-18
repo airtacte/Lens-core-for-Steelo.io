@@ -2,23 +2,23 @@
 pragma solidity ^0.8.19;
 
 import 'forge-std/Test.sol';
-import {CollectPublicationAction} from 'contracts/modules/act/collect/CollectPublicationAction.sol';
-import {CollectNFT} from 'contracts/modules/act/collect/CollectNFT.sol';
+import {CollectPublicationAction} from '../modules/act/collect/CollectPublicationAction.sol';
+import {CollectNFT} from '../modules/act/collect/CollectNFT.sol';
 import {ForkManagement} from 'test/helpers/ForkManagement.sol';
-import {LensHub} from 'contracts/LensHub.sol';
-import {FeeFollowModule} from 'contracts/modules/follow/FeeFollowModule.sol';
-import {RevertFollowModule} from 'contracts/modules/follow/RevertFollowModule.sol';
-import {DegreesOfSeparationReferenceModule} from 'contracts/modules/reference/DegreesOfSeparationReferenceModule.sol';
-import {FollowerOnlyReferenceModule} from 'contracts/modules/reference/FollowerOnlyReferenceModule.sol';
-import {TokenGatedReferenceModule} from 'contracts/modules/reference/TokenGatedReferenceModule.sol';
-import {Governance} from 'contracts/misc/access/Governance.sol';
-import {ProxyAdmin} from 'contracts/misc/access/ProxyAdmin.sol';
-import {ModuleRegistry} from 'contracts/misc/ModuleRegistry.sol';
+import {LensHub} from '../LensHub.sol';
+import {FeeFollowModule} from '../modules/follow/FeeFollowModule.sol';
+import {RevertFollowModule} from '../modules/follow/RevertFollowModule.sol';
+import {DegreesOfSeparationReferenceModule} from '../modules/reference/DegreesOfSeparationReferenceModule.sol';
+import {FollowerOnlyReferenceModule} from '../modules/reference/FollowerOnlyReferenceModule.sol';
+import {TokenGatedReferenceModule} from '../modules/reference/TokenGatedReferenceModule.sol';
+import {Governance} from '../misc/access/Governance.sol';
+import {ProxyAdmin} from '../misc/access/ProxyAdmin.sol';
+import {ModuleRegistry} from '../misc/ModuleRegistry.sol';
 import {LibString} from 'solady/utils/LibString.sol';
 
-import {ProfileTokenURI} from 'contracts/misc/token-uris/ProfileTokenURI.sol';
-import {FollowTokenURI} from 'contracts/misc/token-uris/FollowTokenURI.sol';
-import {HandleTokenURI} from 'contracts/misc/token-uris/HandleTokenURI.sol';
+import {ProfileTokenURI} from '../misc/token-uris/ProfileTokenURI.sol';
+import {FollowTokenURI} from '../misc/token-uris/FollowTokenURI.sol';
+import {HandleTokenURI} from '../misc/token-uris/HandleTokenURI.sol';
 
 contract ContractAddressesLoaderDeployer is Test, ForkManagement {
     using stdJson for string;

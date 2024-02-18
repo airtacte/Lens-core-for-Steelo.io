@@ -3,7 +3,7 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {LensV2UpgradeContract} from 'contracts/misc/LensV2UpgradeContract.sol';
+import {LensV2UpgradeContract} from '../misc/LensV2UpgradeContract.sol';
 
 contract UpgradeForkTest is BaseTest {
     using stdJson for string;

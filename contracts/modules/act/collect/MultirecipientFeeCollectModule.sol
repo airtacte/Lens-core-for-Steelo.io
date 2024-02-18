@@ -2,15 +2,15 @@
 
 pragma solidity ^0.8.10;
 
-import {Errors} from 'contracts/modules/constants/Errors.sol';
-import {BaseFeeCollectModule} from 'contracts/modules/act/collect/base/BaseFeeCollectModule.sol';
-import {BaseProfilePublicationData, BaseFeeCollectModuleInitData} from 'contracts/modules/interfaces/IBaseFeeCollectModule.sol';
+import {Errors} from '../modules/constants/Errors.sol';
+import {BaseFeeCollectModule} from '../modules/act/collect/base/BaseFeeCollectModule.sol';
+import {BaseProfilePublicationData, BaseFeeCollectModuleInitData} from '../modules/interfaces/IBaseFeeCollectModule.sol';
 import {IERC20} from '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 import {SafeERC20} from '@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol';
-import {ICollectModule} from 'contracts/modules/interfaces/ICollectModule.sol';
-import {ModuleTypes} from 'contracts/modules/libraries/constants/ModuleTypes.sol';
-import {LensModuleMetadata} from 'contracts/modules/LensModuleMetadata.sol';
-import {LensModule} from 'contracts/modules/LensModule.sol';
+import {ICollectModule} from '../modules/interfaces/ICollectModule.sol';
+import {ModuleTypes} from '../modules/libraries/constants/ModuleTypes.sol';
+import {LensModuleMetadata} from '../modules/LensModuleMetadata.sol';
+import {LensModule} from '../modules/LensModule.sol';
 
 struct RecipientData {
     address recipient;

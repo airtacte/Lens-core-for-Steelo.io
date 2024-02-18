@@ -3,7 +3,7 @@ pragma solidity ^0.8.10;
 
 import 'forge-std/Test.sol';
 import 'test/modules/act/collect/BaseFeeCollectModule.base.t.sol';
-import {MultirecipientFeeCollectModule, MultirecipientFeeCollectModuleInitData, RecipientData} from 'contracts/modules/act/collect/MultirecipientFeeCollectModule.sol';
+import {MultirecipientFeeCollectModule, MultirecipientFeeCollectModuleInitData, RecipientData} from '../modules/act/collect/MultirecipientFeeCollectModule.sol';
 
 contract MultirecipientCollectModuleBase is BaseFeeCollectModuleBase {
     function testMultirecipientCollectModuleBase() public {

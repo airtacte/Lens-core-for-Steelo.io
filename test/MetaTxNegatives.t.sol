@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {Typehash} from 'contracts/libraries/constants/Typehash.sol';
+import {Typehash} from '../libraries/constants/Typehash.sol';
 
 abstract contract MetaTxNegatives is BaseTest {
     uint256 private constant NO_DEADLINE = type(uint256).max;

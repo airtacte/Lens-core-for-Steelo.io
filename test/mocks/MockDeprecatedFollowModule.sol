@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.15;
 
-import {ILegacyFollowModule} from 'contracts/interfaces/ILegacyFollowModule.sol';
+import {ILegacyFollowModule} from '../interfaces/ILegacyFollowModule.sol';
 
 /**
  * @dev This is a simple mock follow module to be used for testing.

@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.13;
 
-import {LensBaseERC721} from 'contracts/base/LensBaseERC721.sol';
+import {LensBaseERC721} from '../base/LensBaseERC721.sol';
 
 contract MockNFT is LensBaseERC721 {
     function testMockNFT() public {

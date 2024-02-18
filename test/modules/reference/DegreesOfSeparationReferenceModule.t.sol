@@ -2,9 +2,9 @@
 pragma solidity ^0.8.10;
 
 import 'test/base/BaseTest.t.sol';
-import {DegreesOfSeparationReferenceModule, ModuleConfig} from 'contracts/modules/reference/DegreesOfSeparationReferenceModule.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
+import {DegreesOfSeparationReferenceModule, ModuleConfig} from '../modules/reference/DegreesOfSeparationReferenceModule.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
 
 contract DegreesOfSeparationReferenceModuleTest is BaseTest {
     // The one that performed the original publication that is being commented/quoted/mirrored.

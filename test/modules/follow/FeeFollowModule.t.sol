@@ -2,8 +2,8 @@
 pragma solidity ^0.8.10;
 
 import 'test/base/BaseTest.t.sol';
-import {FeeConfig, FeeFollowModule} from 'contracts/modules/follow/FeeFollowModule.sol';
-import {Errors as ModuleErrors} from 'contracts/modules/constants/Errors.sol';
+import {FeeConfig, FeeFollowModule} from '../modules/follow/FeeFollowModule.sol';
+import {Errors as ModuleErrors} from '../modules/constants/Errors.sol';
 import {MockCurrency} from 'test/mocks/MockCurrency.sol';
 
 contract FeeFollowModuleTest is BaseTest {

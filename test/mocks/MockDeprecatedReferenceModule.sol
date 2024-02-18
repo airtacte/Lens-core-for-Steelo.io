@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.15;
 
-import {ILegacyReferenceModule} from 'contracts/interfaces/ILegacyReferenceModule.sol';
+import {ILegacyReferenceModule} from '../interfaces/ILegacyReferenceModule.sol';
 
 /**
  * @dev This is a simple mock follow module to be used for testing.

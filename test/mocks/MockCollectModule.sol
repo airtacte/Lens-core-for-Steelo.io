@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.15;
 
-import {ICollectModule} from 'contracts/modules/interfaces/ICollectModule.sol';
-import {ModuleTypes} from 'contracts/modules/libraries/constants/ModuleTypes.sol';
+import {ICollectModule} from '../modules/interfaces/ICollectModule.sol';
+import {ModuleTypes} from '../modules/libraries/constants/ModuleTypes.sol';
 import {MockModule} from 'test/mocks/MockModule.sol';
 
 /**

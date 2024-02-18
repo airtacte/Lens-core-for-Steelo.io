@@ -2,12 +2,12 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {IModuleRegistry} from 'contracts/interfaces/IModuleRegistry.sol';
-import {ILensModule} from 'contracts/modules/interfaces/ILensModule.sol';
-import {IPublicationActionModule} from 'contracts/interfaces/IPublicationActionModule.sol';
-import {IFollowModule} from 'contracts/interfaces/IFollowModule.sol';
-import {IReferenceModule} from 'contracts/interfaces/IReferenceModule.sol';
-import {ModuleRegistry} from 'contracts/misc/ModuleRegistry.sol';
+import {IModuleRegistry} from '../interfaces/IModuleRegistry.sol';
+import {ILensModule} from '../modules/interfaces/ILensModule.sol';
+import {IPublicationActionModule} from '../interfaces/IPublicationActionModule.sol';
+import {IFollowModule} from '../interfaces/IFollowModule.sol';
+import {IReferenceModule} from '../interfaces/IReferenceModule.sol';
+import {ModuleRegistry} from '../misc/ModuleRegistry.sol';
 import {MockCurrency} from 'test/mocks/MockCurrency.sol';
 
 contract ModuleRegistryTest is BaseTest {

@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import 'forge-std/Script.sol';
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
-import {LitAccessControl} from 'contracts/misc/access/LitAccessControl.sol';
+import {LitAccessControl} from '../misc/access/LitAccessControl.sol';
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
 
 contract LitAccessControlDeployment is Script, ForkManagement {

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-import {BaseFeeCollectModule} from 'contracts/modules/act/collect/base/BaseFeeCollectModule.sol';
-import {BaseFeeCollectModuleInitData, BaseProfilePublicationData} from 'contracts/modules/interfaces/IBaseFeeCollectModule.sol';
-import {ICollectModule} from 'contracts/modules/interfaces/ICollectModule.sol';
-import {LensModuleMetadata} from 'contracts/modules/LensModuleMetadata.sol';
-import {LensModule} from 'contracts/modules/LensModule.sol';
+import {BaseFeeCollectModule} from '../modules/act/collect/base/BaseFeeCollectModule.sol';
+import {BaseFeeCollectModuleInitData, BaseProfilePublicationData} from '../modules/interfaces/IBaseFeeCollectModule.sol';
+import {ICollectModule} from '../modules/interfaces/ICollectModule.sol';
+import {LensModuleMetadata} from '../modules/LensModuleMetadata.sol';
+import {LensModule} from '../modules/LensModule.sol';
 
 /**
  * @title SimpleFeeCollectModule

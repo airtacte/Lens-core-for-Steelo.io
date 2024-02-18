@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import 'forge-std/Test.sol';
 
-import {HandleSVG} from 'contracts/libraries/svgs/Handle/HandleSVG.sol';
+import {HandleSVG} from '../libraries/svgs/Handle/HandleSVG.sol';
 
 contract HandleNFT {
     function tryWithName(string memory name) external pure returns (string memory) {

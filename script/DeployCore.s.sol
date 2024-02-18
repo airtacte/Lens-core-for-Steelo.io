@@ -4,11 +4,11 @@ pragma solidity ^0.8.13;
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
 import 'forge-std/Script.sol';
 import {LibString} from 'solady/utils/LibString.sol';
-import {FollowNFT} from 'contracts/FollowNFT.sol';
-import {LensHubInitializable} from 'contracts/misc/LensHubInitializable.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {Governance} from 'contracts/misc/access/Governance.sol';
-import {LensHandles} from 'contracts/namespaces/LensHandles.sol';
+import {FollowNFT} from '../FollowNFT.sol';
+import {LensHubInitializable} from '../misc/LensHubInitializable.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {Governance} from '../misc/access/Governance.sol';
+import {LensHandles} from '../namespaces/LensHandles.sol';
 
 contract DeployCore is Script, ForkManagement {
     using stdJson for string;

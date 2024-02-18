@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
 import 'test/LensBaseERC721Test.t.sol';
-import {LegacyCollectNFT} from 'contracts/misc/LegacyCollectNFT.sol';
+import {LegacyCollectNFT} from '../misc/LegacyCollectNFT.sol';
 import {MockDeprecatedCollectModule} from 'test/mocks/MockDeprecatedCollectModule.sol';
 import {Clones} from '@openzeppelin/contracts/proxy/Clones.sol';
 

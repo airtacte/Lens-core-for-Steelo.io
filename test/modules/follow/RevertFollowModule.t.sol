@@ -2,8 +2,8 @@
 pragma solidity ^0.8.10;
 
 import 'test/base/BaseTest.t.sol';
-import {RevertFollowModule} from 'contracts/modules/follow/RevertFollowModule.sol';
-import {Errors as ModuleErrors} from 'contracts/modules/constants/Errors.sol';
+import {RevertFollowModule} from '../modules/follow/RevertFollowModule.sol';
+import {Errors as ModuleErrors} from '../modules/constants/Errors.sol';
 
 contract RevertFollowModuleTest is BaseTest {
     using stdJson for string;

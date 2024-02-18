@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-import {LegacyCollectNFT} from 'contracts/misc/LegacyCollectNFT.sol';
-import {FollowNFT} from 'contracts/FollowNFT.sol';
-import {LensHubInitializable} from 'contracts/misc/LensHubInitializable.sol';
+import {LegacyCollectNFT} from '../misc/LegacyCollectNFT.sol';
+import {FollowNFT} from '../FollowNFT.sol';
+import {LensHubInitializable} from '../misc/LensHubInitializable.sol';
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
-import {LensHub} from 'contracts/LensHub.sol';
+import {LensHub} from '../LensHub.sol';
 import {MockActionModule} from 'test/mocks/MockActionModule.sol';
 import {MockReferenceModule} from 'test/mocks/MockReferenceModule.sol';
-import {LensHandles} from 'contracts/namespaces/LensHandles.sol';
-import {TokenHandleRegistry} from 'contracts/namespaces/TokenHandleRegistry.sol';
-import {Governance} from 'contracts/misc/access/Governance.sol';
-import {ProxyAdmin} from 'contracts/misc/access/ProxyAdmin.sol';
-import {ModuleRegistry} from 'contracts/misc/ModuleRegistry.sol';
-import {ProfileTokenURI} from 'contracts/misc/token-uris/ProfileTokenURI.sol';
-import {FollowTokenURI} from 'contracts/misc/token-uris/FollowTokenURI.sol';
-import {HandleTokenURI} from 'contracts/misc/token-uris/HandleTokenURI.sol';
+import {LensHandles} from '../namespaces/LensHandles.sol';
+import {TokenHandleRegistry} from '../namespaces/TokenHandleRegistry.sol';
+import {Governance} from '../misc/access/Governance.sol';
+import {ProxyAdmin} from '../misc/access/ProxyAdmin.sol';
+import {ModuleRegistry} from '../misc/ModuleRegistry.sol';
+import {ProfileTokenURI} from '../misc/token-uris/ProfileTokenURI.sol';
+import {FollowTokenURI} from '../misc/token-uris/FollowTokenURI.sol';
+import {HandleTokenURI} from '../misc/token-uris/HandleTokenURI.sol';
 
 contract ContractAddresses {
     ////////////////////////////////// Types

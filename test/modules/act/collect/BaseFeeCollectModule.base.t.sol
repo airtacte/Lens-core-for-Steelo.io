@@ -2,8 +2,8 @@
 pragma solidity ^0.8.10;
 
 import 'test/base/BaseTest.t.sol';
-import {SimpleFeeCollectModule} from 'contracts/modules/act/collect/SimpleFeeCollectModule.sol';
-import {BaseFeeCollectModuleInitData} from 'contracts/modules/interfaces/IBaseFeeCollectModule.sol';
+import {SimpleFeeCollectModule} from '../modules/act/collect/SimpleFeeCollectModule.sol';
+import {BaseFeeCollectModuleInitData} from '../modules/interfaces/IBaseFeeCollectModule.sol';
 import {MockCurrency} from 'test/mocks/MockCurrency.sol';
 
 contract BaseFeeCollectModuleBase is BaseTest {

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
 
 contract GovernanceFunctionsTest is BaseTest {
     function setUp() public virtual override {

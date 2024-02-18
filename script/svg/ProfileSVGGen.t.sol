@@ -2,17 +2,17 @@
 pragma solidity ^0.8.13;
 
 import 'forge-std/Test.sol';
-import {Skin, Background, Helpers} from 'contracts/libraries/svgs/Profile/Helpers.sol';
-import {Face} from 'contracts/libraries/svgs/Profile/Face.sol';
-import {Legs} from 'contracts/libraries/svgs/Profile/Legs.sol';
-import {Shoes} from 'contracts/libraries/svgs/Profile/Shoes.sol';
-import {Body} from 'contracts/libraries/svgs/Profile/Body.sol';
-import {Hands} from 'contracts/libraries/svgs/Profile/Hands.sol';
-import {Logo} from 'contracts/libraries/svgs/Profile/Logo.sol';
-import {Headwear} from 'contracts/libraries/svgs/Profile/Headwear.sol';
+import {Skin, Background, Helpers} from '../libraries/svgs/Profile/Helpers.sol';
+import {Face} from '../libraries/svgs/Profile/Face.sol';
+import {Legs} from '../libraries/svgs/Profile/Legs.sol';
+import {Shoes} from '../libraries/svgs/Profile/Shoes.sol';
+import {Body} from '../libraries/svgs/Profile/Body.sol';
+import {Hands} from '../libraries/svgs/Profile/Hands.sol';
+import {Logo} from '../libraries/svgs/Profile/Logo.sol';
+import {Headwear} from '../libraries/svgs/Profile/Headwear.sol';
 
-import {ProfileSVG} from 'contracts/libraries/svgs/Profile/ProfileSVG.sol';
-import {ProfileTokenURI} from 'contracts/misc/token-uris/ProfileTokenURI.sol';
+import {ProfileSVG} from '../libraries/svgs/Profile/ProfileSVG.sol';
+import {ProfileTokenURI} from '../misc/token-uris/ProfileTokenURI.sol';
 
 contract ProfileNFT {
     function tryProfile(uint256 profileId) external view returns (string memory) {

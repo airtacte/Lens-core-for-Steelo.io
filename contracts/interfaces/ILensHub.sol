@@ -2,12 +2,12 @@
 
 pragma solidity >=0.6.0;
 
-import {ILensProtocol} from 'contracts/interfaces/ILensProtocol.sol';
-import {ILensGovernable} from 'contracts/interfaces/ILensGovernable.sol';
-import {ILensHubEventHooks} from 'contracts/interfaces/ILensHubEventHooks.sol';
-import {ILensImplGetters} from 'contracts/interfaces/ILensImplGetters.sol';
-import {ILensProfiles} from 'contracts/interfaces/ILensProfiles.sol';
-import {ILensVersion} from 'contracts/interfaces/ILensVersion.sol';
+import {ILensProtocol} from '../interfaces/ILensProtocol.sol';
+import {ILensGovernable} from '../interfaces/ILensGovernable.sol';
+import {ILensHubEventHooks} from '../interfaces/ILensHubEventHooks.sol';
+import {ILensImplGetters} from '../interfaces/ILensImplGetters.sol';
+import {ILensProfiles} from '../interfaces/ILensProfiles.sol';
+import {ILensVersion} from '../interfaces/ILensVersion.sol';
 
 interface ILensHub is
     ILensProfiles,

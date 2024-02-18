@@ -4,8 +4,8 @@ pragma solidity ^0.8.13;
 import 'test/base/BaseTest.t.sol';
 import {LibString} from 'solady/utils/LibString.sol';
 import {Base64} from 'solady/utils/Base64.sol';
-import {HandlesErrors} from 'contracts/namespaces/constants/Errors.sol';
-import {HandlesEvents} from 'contracts/namespaces/constants/Events.sol';
+import {HandlesErrors} from '../namespaces/constants/Errors.sol';
+import {HandlesEvents} from '../namespaces/constants/Events.sol';
 import {TokenGuardianTest_Default_Off, IGuardedToken} from 'test/TokenGuardian.t.sol';
 
 contract LensHandlesTest is TokenGuardianTest_Default_Off {

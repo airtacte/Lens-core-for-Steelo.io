@@ -4,8 +4,8 @@ pragma solidity ^0.8.13;
 import {MockTokenHolderContract} from 'test/mocks/MockTokenHolderContract.sol';
 import {IERC721} from '@openzeppelin/contracts/token/ERC721/IERC721.sol';
 import {ERC721Test} from 'test/ERC721.t.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {Events} from '../libraries/constants/Events.sol';
 import {Address} from '@openzeppelin/contracts/utils/Address.sol';
 
 interface IGuardedToken is IERC721 {

@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import 'forge-std/Test.sol';
 
-import {FollowSVG} from 'contracts/libraries/svgs/Follow/FollowSVG.sol';
+import {FollowSVG} from '../libraries/svgs/Follow/FollowSVG.sol';
 
 contract FollowNFT {
     function tryWithTokenId(uint256 tokenId) external pure returns (string memory) {

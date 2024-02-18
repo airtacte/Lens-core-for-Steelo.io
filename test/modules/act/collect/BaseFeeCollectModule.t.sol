@@ -2,11 +2,11 @@
 pragma solidity ^0.8.10;
 
 import {BaseFeeCollectModuleBase} from 'test/modules/act/collect/BaseFeeCollectModule.base.t.sol';
-import {IBaseFeeCollectModule, BaseProfilePublicationData} from 'contracts/modules/interfaces/IBaseFeeCollectModule.sol';
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {ModuleTypes} from 'contracts/modules/libraries/constants/ModuleTypes.sol';
-import {Errors as ModuleErrors} from 'contracts/modules/constants/Errors.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
+import {IBaseFeeCollectModule, BaseProfilePublicationData} from '../modules/interfaces/IBaseFeeCollectModule.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {ModuleTypes} from '../modules/libraries/constants/ModuleTypes.sol';
+import {Errors as ModuleErrors} from '../modules/constants/Errors.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
 import {MockCurrency} from 'test/mocks/MockCurrency.sol';
 
 uint16 constant BPS_MAX = 10000;

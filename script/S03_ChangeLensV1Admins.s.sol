@@ -3,9 +3,9 @@ pragma solidity ^0.8.13;
 
 import {ForkManagement} from 'script/helpers/ForkManagement.sol';
 import 'forge-std/Script.sol';
-import {ILensGovernable} from 'contracts/interfaces/ILensGovernable.sol';
-import {Governance} from 'contracts/misc/access/Governance.sol';
-import {ProxyAdmin} from 'contracts/misc/access/ProxyAdmin.sol';
+import {ILensGovernable} from '../interfaces/ILensGovernable.sol';
+import {Governance} from '../misc/access/Governance.sol';
+import {ProxyAdmin} from '../misc/access/ProxyAdmin.sol';
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
 
 contract S03_ChangeLensV1Admins is Script, ForkManagement {

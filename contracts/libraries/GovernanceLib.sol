@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.15;
 
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
+import {Events} from '../libraries/constants/Events.sol';
 
 library GovernanceLib {
     uint16 internal constant BPS_MAX = 10000;

@@ -2,12 +2,12 @@
 
 pragma solidity ^0.8.15;
 
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
-import {ValidationLib} from 'contracts/libraries/ValidationLib.sol';
-import {IPublicationActionModule} from 'contracts/interfaces/IPublicationActionModule.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
+import {ValidationLib} from '../libraries/ValidationLib.sol';
+import {IPublicationActionModule} from '../interfaces/IPublicationActionModule.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {Events} from '../libraries/constants/Events.sol';
 
 library ActionLib {
     function act(

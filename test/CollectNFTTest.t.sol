@@ -3,11 +3,11 @@ pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
 import 'test/LensBaseERC721Test.t.sol';
-import {CollectPublicationAction} from 'contracts/modules/act/collect/CollectPublicationAction.sol';
-import {CollectNFT} from 'contracts/modules/act/collect/CollectNFT.sol';
+import {CollectPublicationAction} from '../modules/act/collect/CollectPublicationAction.sol';
+import {CollectNFT} from '../modules/act/collect/CollectNFT.sol';
 import {MockCollectModule} from 'test/mocks/MockCollectModule.sol';
 import {Clones} from '@openzeppelin/contracts/proxy/Clones.sol';
-import {Errors as ModulesErrors} from 'contracts/modules/constants/Errors.sol';
+import {Errors as ModulesErrors} from '../modules/constants/Errors.sol';
 
 contract CollectNFTTest is BaseTest, LensBaseERC721Test {
     using stdJson for string;

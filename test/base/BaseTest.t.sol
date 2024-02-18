@@ -3,8 +3,8 @@ pragma solidity ^0.8.13;
 
 import 'test/base/TestSetup.t.sol';
 import 'contracts/libraries/constants/Types.sol';
-import {Typehash} from 'contracts/libraries/constants/Typehash.sol';
-import {Typehash as NamespacesTypehash} from 'contracts/namespaces/constants/Typehash.sol';
+import {Typehash} from '../libraries/constants/Typehash.sol';
+import {Typehash as NamespacesTypehash} from '../namespaces/constants/Typehash.sol';
 import {Strings} from '@openzeppelin/contracts/utils/Strings.sol';
 import {Address} from '@openzeppelin/contracts/utils/Address.sol';
 

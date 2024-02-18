@@ -2,10 +2,10 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {ProfileLib} from 'contracts/libraries/ProfileLib.sol';
+import {ProfileLib} from '../libraries/ProfileLib.sol';
 import {MockFollowModuleWithRevertFlag} from 'test/mocks/MockFollowModuleWithRevertFlag.sol';
-import {IFollowModule} from 'contracts/interfaces/IFollowModule.sol';
-import {ValidationLib} from 'contracts/libraries/ValidationLib.sol';
+import {IFollowModule} from '../interfaces/IFollowModule.sol';
+import {ValidationLib} from '../libraries/ValidationLib.sol';
 
 contract LensHubTest is BaseTest {
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);

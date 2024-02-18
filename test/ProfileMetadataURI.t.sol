@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
 import 'test/MetaTxNegatives.t.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
+import {Events} from '../libraries/constants/Events.sol';
 
 contract ProfileMetadataURITest is BaseTest {
     function setUp() public virtual override {

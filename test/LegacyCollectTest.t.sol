@@ -6,11 +6,11 @@ import 'test/MetaTxNegatives.t.sol';
 import 'test/mocks/MockFollowModule.sol';
 import {MockDeprecatedCollectModule} from 'test/mocks/MockDeprecatedCollectModule.sol';
 import {MockDeprecatedCollectModuleFollowerOnly} from 'test/mocks/MockDeprecatedCollectModuleFollowerOnly.sol';
-import {ICollectNFT} from 'contracts/interfaces/ICollectNFT.sol';
-import {LegacyCollectLib} from 'contracts/libraries/LegacyCollectLib.sol';
-import {ILegacyCollectModule} from 'contracts/interfaces/ILegacyCollectModule.sol';
+import {ICollectNFT} from '../interfaces/ICollectNFT.sol';
+import {LegacyCollectLib} from '../libraries/LegacyCollectLib.sol';
+import {ILegacyCollectModule} from '../interfaces/ILegacyCollectModule.sol';
 import {ReferralSystemTest} from 'test/ReferralSystem.t.sol';
-import {Errors as ModuleErrors} from 'contracts/modules/constants/Errors.sol';
+import {Errors as ModuleErrors} from '../modules/constants/Errors.sol';
 
 contract LegacyCollectTest is BaseTest, ReferralSystemTest {
     using Strings for uint256;

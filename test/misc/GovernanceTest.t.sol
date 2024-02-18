@@ -2,10 +2,10 @@
 pragma solidity ^0.8.13;
 
 import 'test/base/BaseTest.t.sol';
-import {ILensGovernable} from 'contracts/interfaces/ILensGovernable.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {Governance} from 'contracts/misc/access/Governance.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
+import {ILensGovernable} from '../interfaces/ILensGovernable.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {Governance} from '../misc/access/Governance.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
 
 // TODO: Move to mocks/
 contract MockNonLensHubGoverned {

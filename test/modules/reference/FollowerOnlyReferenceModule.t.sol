@@ -2,8 +2,8 @@
 pragma solidity ^0.8.10;
 
 import 'test/base/BaseTest.t.sol';
-import {FollowerOnlyReferenceModule} from 'contracts/modules/reference/FollowerOnlyReferenceModule.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
+import {FollowerOnlyReferenceModule} from '../modules/reference/FollowerOnlyReferenceModule.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
 
 contract FollowerOnlyReferenceModuleTest is BaseTest {
     using stdJson for string;

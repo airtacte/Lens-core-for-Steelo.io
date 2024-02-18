@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {Headwear} from 'contracts/libraries/svgs/Profile/Headwear.sol';
+import {Headwear} from '../libraries/svgs/Profile/Headwear.sol';
 
 library HeadwearBeanie {
     enum BeanieColors {

@@ -4,32 +4,32 @@ pragma solidity ^0.8.13;
 import 'forge-std/Test.sol';
 
 // Deployments
-import {Types} from 'contracts/libraries/constants/Types.sol';
-import {Errors} from 'contracts/libraries/constants/Errors.sol';
-import {Events} from 'contracts/libraries/constants/Events.sol';
+import {Types} from '../libraries/constants/Types.sol';
+import {Errors} from '../libraries/constants/Errors.sol';
+import {Events} from '../libraries/constants/Events.sol';
 import {ArrayHelpers} from 'test/helpers/ArrayHelpers.sol';
-import {Typehash} from 'contracts/libraries/constants/Typehash.sol';
-import {MetaTxLib} from 'contracts/libraries/MetaTxLib.sol';
-import {StorageLib} from 'contracts/libraries/StorageLib.sol';
+import {Typehash} from '../libraries/constants/Typehash.sol';
+import {MetaTxLib} from '../libraries/MetaTxLib.sol';
+import {StorageLib} from '../libraries/StorageLib.sol';
 import 'test/Constants.sol';
 import {LibString} from 'solady/utils/LibString.sol';
 import {ContractAddressesLoaderDeployer} from 'test/base/ContractAddressesLoaderDeployer.t.sol';
 
-import {LensHub} from 'contracts/LensHub.sol';
-import {LensHubInitializable} from 'contracts/misc/LensHubInitializable.sol';
-import {FollowNFT} from 'contracts/FollowNFT.sol';
-import {LegacyCollectNFT} from 'contracts/misc/LegacyCollectNFT.sol';
+import {LensHub} from '../LensHub.sol';
+import {LensHubInitializable} from '../misc/LensHubInitializable.sol';
+import {FollowNFT} from '../FollowNFT.sol';
+import {LegacyCollectNFT} from '../misc/LegacyCollectNFT.sol';
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
-import {LensHandles} from 'contracts/namespaces/LensHandles.sol';
-import {TokenHandleRegistry} from 'contracts/namespaces/TokenHandleRegistry.sol';
+import {LensHandles} from '../namespaces/LensHandles.sol';
+import {TokenHandleRegistry} from '../namespaces/TokenHandleRegistry.sol';
 import {MockActionModule} from 'test/mocks/MockActionModule.sol';
 import {MockReferenceModule} from 'test/mocks/MockReferenceModule.sol';
-import {ModuleRegistry} from 'contracts/misc/ModuleRegistry.sol';
-import {ILensGovernable} from 'contracts/interfaces/ILensGovernable.sol';
+import {ModuleRegistry} from '../misc/ModuleRegistry.sol';
+import {ILensGovernable} from '../interfaces/ILensGovernable.sol';
 
-import {ProfileTokenURI} from 'contracts/misc/token-uris/ProfileTokenURI.sol';
-import {FollowTokenURI} from 'contracts/misc/token-uris/FollowTokenURI.sol';
-import {HandleTokenURI} from 'contracts/misc/token-uris/HandleTokenURI.sol';
+import {ProfileTokenURI} from '../misc/token-uris/ProfileTokenURI.sol';
+import {FollowTokenURI} from '../misc/token-uris/FollowTokenURI.sol';
+import {HandleTokenURI} from '../misc/token-uris/HandleTokenURI.sol';
 
 // TODO: Move these to Interface file in test folder.
 struct OldCreateProfileParams {

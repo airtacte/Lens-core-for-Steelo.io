@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.15;
 
-import {ILegacyCollectModule} from 'contracts/interfaces/ILegacyCollectModule.sol';
+import {ILegacyCollectModule} from '../interfaces/ILegacyCollectModule.sol';
 import {MockModule} from 'test/mocks/MockModule.sol';
 
 interface ILensHub {

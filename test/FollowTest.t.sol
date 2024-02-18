@@ -4,9 +4,9 @@ pragma solidity ^0.8.13;
 import 'test/base/BaseTest.t.sol';
 import 'test/MetaTxNegatives.t.sol';
 import {Strings} from '@openzeppelin/contracts/utils/Strings.sol';
-import {IFollowNFT} from 'contracts/interfaces/IFollowNFT.sol';
+import {IFollowNFT} from '../interfaces/IFollowNFT.sol';
 import 'test/mocks/MockFollowModuleWithRevertFlag.sol';
-import {Typehash} from 'contracts/libraries/constants/Typehash.sol';
+import {Typehash} from '../libraries/constants/Typehash.sol';
 
 contract FollowTest is BaseTest {
     using Strings for uint256;

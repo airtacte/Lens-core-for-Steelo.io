@@ -3,7 +3,7 @@
 pragma solidity ^0.8.15;
 
 import {TransparentUpgradeableProxy} from '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol';
-import {ControllableByContract} from 'contracts/misc/access/ControllableByContract.sol';
+import {ControllableByContract} from '../misc/access/ControllableByContract.sol';
 
 contract ProxyAdmin is ControllableByContract {
     TransparentUpgradeableProxy public immutable LENS_HUB_PROXY;
